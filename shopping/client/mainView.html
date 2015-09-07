@@ -1,0 +1,17 @@
+<body>
+<div class="container">
+    <h1> Shopping app</h1>
+    {{#if products }}
+        {{> all_product}}
+    {{/if}}
+    {{#if product_detail }}
+        {{> product_detail}}
+    {{/if}}
+    {{#if carts}}
+        {{> cart}}
+    {{/if}}
+    {{#if add_data}}
+        {{> add_product}}
+    {{/if}}
+</div>
+</body>
